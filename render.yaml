@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: brain-tumor-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: flask run --host=0.0.0.0 --port=10000
+    envVars:
+      - key: FLASK_APP
+        value: app.py
+      - key: FLASK_ENV
+        value: production
+      - key: HF_TOKEN
+        value: your_huggingface_token_here   # optional if model is private

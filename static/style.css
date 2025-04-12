@@ -1,0 +1,64 @@
+body {
+    font-family: 'Chakra Petch' , sans-serif;
+    font-weight: 400;
+    background: linear-gradient(to right, #AFBCFE, #C3CDFE);
+  }
+  
+  .mb-4{
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #594890;
+  }
+
+  /* static/style.css */
+.result-image {
+    border: 4px solid #4caf50;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .upload-box {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #EBEEFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .upload-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-primary {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, #5a67d8, #6b46c1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .btn-success {
+    background: linear-gradient(to right, #56A1D6, #56b8d6);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
